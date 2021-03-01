@@ -1,2 +1,3 @@
 FROM tomcat:7-jdk8-corretto
-COPY target/java-web-app-docker*.war /usr/local/tomcat/webapps/java-web-app-docker.war
+COPY target/java-web-app-1.0*.war /usr/local/tomcat/webapps/java-web-app-1.0.war 
+ 
