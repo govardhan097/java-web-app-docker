@@ -1,2 +1,2 @@
-FROM tomcat:8.0.20-jre8
+FROM tomcat:7-jdk8-corretto
 COPY target/java-web-app-docker*.war /usr/local/tomcat/webapps/java-web-app-docker.war
